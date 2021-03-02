@@ -28,28 +28,28 @@
 
 ## 目录结构
 
-...
-│   clean.ps1 		//clean脚本 在具体项目文件夹下使用
-│   init.ps1		    //创建新项目脚本 在本仓库根目录
-│
-├───.vscode
-│       settings.json	//VSCode配置文件，CodeRunner运行脚本也在这里
-│
-├───example		//示例 加减乘除表达式解析
-│       exp.l
-│       exp.y
-│
-├───template	//两种文件的模板
-│       __.l
-│       __.y
-│
-└───tool		//flex&bison程序和依赖
-        bison.exe
-        bison.hairy
-        Bison.htm
-        bison.simple
-        flex.exe
-        flex.htm
+        ...
+        │   clean.ps1 		//clean脚本 在具体项目文件夹下使用
+        │   init.ps1		    //创建新项目脚本 在本仓库根目录
+        │
+        ├───.vscode
+        │       settings.json	//VSCode配置文件，CodeRunner运行脚本也在这里
+        │
+        ├───example		//示例 加减乘除表达式解析
+        │       exp.l
+        │       exp.y
+        │
+        ├───template	//两种文件的模板
+        │       __.l
+        │       __.y
+        │
+        └───tool		//flex&bison程序和依赖
+                bison.exe
+                bison.hairy
+                Bison.htm
+                bison.simple
+                flex.exe
+                flex.htm
 
 #### 注意，本项目脚本较依赖文件结构，若想开箱即用请注意脚本的使用路径且不要破坏文件结构
 
